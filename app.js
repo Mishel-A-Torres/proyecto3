@@ -3,7 +3,10 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import {test} from './backend/controllers/user.controller.js';
-import {test2} from './backend/controllers/admin.controller.js'
+import {test2} from './backend/controllers/prestamo.controller.js';
+import {test3} from './backend/controllers/peli.controller.js';
+import {test4} from './backend/controllers/catego.controller.js';
+import {test5} from './backend/controllers/autor.controller.js'
 
 dotenv.config();
 
@@ -24,3 +27,6 @@ app.listen(4002, ()=>{
 
 test()
 test2()
+test3()
+test4()
+test5()

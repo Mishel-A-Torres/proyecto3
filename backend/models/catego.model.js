@@ -1,7 +1,7 @@
 import {Schema, model} from 'mongoose'
 
-export const Categoriaesquema = new Schema({
-    name:{
+const Categoriaesquema = new Schema({
+    tipo:{
         type: String
     }
 })

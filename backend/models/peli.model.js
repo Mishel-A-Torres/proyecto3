@@ -7,7 +7,7 @@ const Peliesquema = newSchema({
     categoria: {
          type: String 
         },
-        disponibilidad: { 
+     disponibilidad: { 
         type: String
     }
 })

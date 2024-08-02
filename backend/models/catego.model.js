@@ -5,4 +5,4 @@ const Categoriaesquema = new Schema({
         type: String
     }
 })
-export const modelo = new model('usuarios', Categoriaesquema)
+export const modelo = new model('categorías', Categoriaesquema)

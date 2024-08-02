@@ -14,4 +14,4 @@ const Prestamoesquema = new Schema({
         type: Date 
     }
 })
-export const modelo = new model('usuarios', Prestamoesquema)
+export const modelo = new model('prestamos', Prestamoesquema)

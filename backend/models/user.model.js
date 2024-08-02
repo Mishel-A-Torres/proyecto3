@@ -1,6 +1,6 @@
 import {Schema, model} from 'mongoose'
 
-const Usuarioesquema = newSchema({
+const Usuarioesquema = new Schema({
     name:{
         type: String
     }, 

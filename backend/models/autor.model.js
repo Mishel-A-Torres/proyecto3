@@ -1,6 +1,6 @@
 import {Schema, model} from 'mongoose'
 
-const Autoresquema = newSchema({
+const Autoresquema = new Schema({
     name:{
         type: String
     }, 
@@ -11,4 +11,4 @@ const Autoresquema = newSchema({
         type: String
     }
 })
-export const modelo = new model('usuarios', Autoresquema)
+export const modelo = new model('autores', Autoresquema)

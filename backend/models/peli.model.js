@@ -1,6 +1,6 @@
 import {Schema, model} from 'mongoose'
 
-const Peliesquema = newSchema({
+const Peliesquema = new Schema({
     titulo:{
         type: String
     }, 
@@ -11,4 +11,4 @@ const Peliesquema = newSchema({
         type: String
     }
 })
-export const modelo = new model('usuarios', Peliesquema)
+export const modelo = new model('pelis', Peliesquema)

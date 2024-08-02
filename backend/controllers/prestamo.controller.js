@@ -1,5 +1,5 @@
 import {modelo} from '../models/prestamo.model.js'
-export const test5 = () => {
+export const test2 = () => {
     console.log('si funciona la conexión entre el controlador y el proyecto')
 }
 
